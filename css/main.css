@@ -337,6 +337,11 @@ p {
   font-size: 24px;
   font-weight: 800;
   text-transform: uppercase;
+  transition: all 0.3s;
+}
+/* line 12, ../scss/modules/_buttons.scss */
+.custom-button:hover {
+  background-color: #d90138;
 }
 
 /* line 1, ../scss/modules/_sections.scss */
