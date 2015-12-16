@@ -215,16 +215,17 @@ p {
 /* line 6, ../scss/layout/_footer.scss */
 .footer h4 {
   font-family: "Roboto Mono";
+  text-transform: none;
   font-size: 14px;
   font-weight: 700;
   margin-bottom: 15px;
 }
-/* line 13, ../scss/layout/_footer.scss */
+/* line 14, ../scss/layout/_footer.scss */
 .footer ul {
   margin-bottom: 40px;
 }
 
-/* line 19, ../scss/layout/_footer.scss */
+/* line 20, ../scss/layout/_footer.scss */
 .footer-wrapper {
   border-top: 1px solid #222;
   padding: 60px 0;
