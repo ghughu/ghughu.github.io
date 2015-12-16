@@ -7,4 +7,9 @@
     font-size: 24px;
     font-weight: 800;
     text-transform: uppercase;
+    transition: all 0.3s;
+
+    &:hover{
+    	 background-color: darken($primary-background-color,5%);	
+    }
 }

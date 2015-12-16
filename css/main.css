@@ -149,8 +149,8 @@ p {
   font-family: "Abril Fatface";
   font-weight: 800;
   color: #fff;
-  font-size: 48px;
-  padding: 40px;
+  font-size: 24px;
+  padding: 15px 0;
 }
 /* line 15, ../scss/layout/_nav.scss */
 .navbar-default .navbar-brand span.thin {
@@ -515,7 +515,7 @@ p {
   box-shadow: 0px 0px 45px rgba(0, 0, 0, 0.2), 0px 0px 45px rgba(0, 0, 0, 0.2);
 }
 
-/* line 44, ../scss/modules/_components.scss */
+/* line 45, ../scss/modules/_components.scss */
 .carousel-control {
   position: absolute;
   top: 100%;
@@ -532,32 +532,32 @@ p {
   filter: alpha(opacity=100);
   opacity: 1;
 }
-/* line 60, ../scss/modules/_components.scss */
+/* line 61, ../scss/modules/_components.scss */
 .carousel-control.right {
   margin-right: 15px;
   /*to neget the col padding to align with container*/
   background-color: #090909;
 }
-/* line 64, ../scss/modules/_components.scss */
+/* line 65, ../scss/modules/_components.scss */
 .carousel-control.right i img {
   margin-top: 12px;
 }
-/* line 69, ../scss/modules/_components.scss */
+/* line 70, ../scss/modules/_components.scss */
 .carousel-control.left {
   left: 100%;
   margin-left: -286px;
   background-color: #090909;
 }
-/* line 74, ../scss/modules/_components.scss */
+/* line 75, ../scss/modules/_components.scss */
 .carousel-control.left i img {
   margin-top: 12px;
 }
-/* line 79, ../scss/modules/_components.scss */
+/* line 80, ../scss/modules/_components.scss */
 .carousel-control a {
   line-height: 0;
 }
 
-/* line 86, ../scss/modules/_components.scss */
+/* line 87, ../scss/modules/_components.scss */
 .carousel-indicators {
   background-color: #090909;
   width: 131px;
@@ -571,13 +571,13 @@ p {
   border-left: 1px solid #1a1a1a;
   border-right: 1px solid #1a1a1a;
 }
-/* line 99, ../scss/modules/_components.scss */
+/* line 100, ../scss/modules/_components.scss */
 .carousel-indicators li {
   background-color: #fff;
   border: none;
   border-radius: 10px;
 }
-/* line 105, ../scss/modules/_components.scss */
+/* line 106, ../scss/modules/_components.scss */
 .carousel-indicators .active {
   width: 12px;
   height: 12px;
@@ -586,27 +586,27 @@ p {
 }
 
 /* =================  CAROUSEL CUSTOM FADE EFFECT ===================== */
-/* line 119, ../scss/modules/_components.scss */
+/* line 120, ../scss/modules/_components.scss */
 .carousel-fade .carousel-inner .item {
   -webkit-transition-property: opacity;
   transition-property: opacity;
 }
 
-/* line 125, ../scss/modules/_components.scss */
+/* line 126, ../scss/modules/_components.scss */
 .carousel-fade .carousel-inner .item,
 .carousel-fade .carousel-inner .active.left,
 .carousel-fade .carousel-inner .active.right {
   opacity: 0;
 }
 
-/* line 130, ../scss/modules/_components.scss */
+/* line 131, ../scss/modules/_components.scss */
 .carousel-fade .carousel-inner .active,
 .carousel-fade .carousel-inner .next.left,
 .carousel-fade .carousel-inner .prev.right {
   opacity: 1;
 }
 
-/* line 136, ../scss/modules/_components.scss */
+/* line 137, ../scss/modules/_components.scss */
 .carousel-fade .carousel-inner .next,
 .carousel-fade .carousel-inner .prev,
 .carousel-fade .carousel-inner .active.left,
@@ -616,7 +616,7 @@ p {
   transform: translate3d(0, 0, 0);
 }
 
-/* line 141, ../scss/modules/_components.scss */
+/* line 142, ../scss/modules/_components.scss */
 .carousel-fade .carousel-control {
   z-index: 2;
 }
@@ -762,32 +762,31 @@ table tr td:first-of-type {
   .navbar-default {
     background-color: transparent;
   }
+  /* line 22, ../scss/layout/responsive/_tablet.scss */
+  .navbar-default .navbar-brand {
+    padding: 20px 40px;
+  }
 
-  /* line 25, ../scss/layout/responsive/_tablet.scss */
+  /* line 28, ../scss/layout/responsive/_tablet.scss */
   .banner-item {
     top: 35%;
   }
-  /* line 28, ../scss/layout/responsive/_tablet.scss */
+  /* line 31, ../scss/layout/responsive/_tablet.scss */
   .banner-item img {
     margin-top: -10px;
   }
 
-  /* line 33, ../scss/layout/responsive/_tablet.scss */
+  /* line 36, ../scss/layout/responsive/_tablet.scss */
   .about-us p {
     color: #e6e6e6;
   }
 
-  /* line 37, ../scss/layout/responsive/_tablet.scss */
+  /* line 40, ../scss/layout/responsive/_tablet.scss */
   .service-number {
     font-size: 140px;
   }
 
-  /* line 41, ../scss/layout/responsive/_tablet.scss */
-  .team-member-img, .team-member-contact {
-    max-width: 350px;
-  }
-
-  /* line 49, ../scss/layout/responsive/_tablet.scss */
+  /* line 48, ../scss/layout/responsive/_tablet.scss */
   .address-wrapper,
   .email-wrapper,
   .form-wrapper,
@@ -797,17 +796,17 @@ table tr td:first-of-type {
     margin: 0;
   }
 
-  /* line 54, ../scss/layout/responsive/_tablet.scss */
+  /* line 53, ../scss/layout/responsive/_tablet.scss */
   .address-table {
     max-width: 350px;
   }
 
-  /* line 58, ../scss/layout/responsive/_tablet.scss */
+  /* line 57, ../scss/layout/responsive/_tablet.scss */
   .form-wrapper {
     padding: 40px;
   }
 
-  /* line 62, ../scss/layout/responsive/_tablet.scss */
+  /* line 61, ../scss/layout/responsive/_tablet.scss */
   .email-us h1 {
     margin-bottom: 100px;
   }
@@ -833,10 +832,20 @@ table tr td:first-of-type {
     padding: 200px 0 60px;
   }
 
-  /* line 19, ../scss/layout/responsive/_laptop.scss */
+  /* line 21, ../scss/layout/responsive/_laptop.scss */
   .navbar-default .navbar-nav > li > a {
     padding-top: 40px;
     padding-bottom: 40px;
+  }
+  /* line 26, ../scss/layout/responsive/_laptop.scss */
+  .navbar-default .navbar-brand {
+    font-size: 48px;
+    padding: 40px;
+  }
+
+  /* line 32, ../scss/layout/responsive/_laptop.scss */
+  .team-member-img, .team-member-contact {
+    max-width: 350px;
   }
 }
 @media (min-width: 1200px) {

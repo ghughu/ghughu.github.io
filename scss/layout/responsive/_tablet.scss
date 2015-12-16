@@ -19,6 +19,9 @@ h2 {
 
 .navbar-default{
 background-color: transparent;
+    .navbar-brand{
+            padding: 20px 40px;
+    }
 }
 
 
@@ -36,10 +39,6 @@ background-color: transparent;
 
 .service-number {
     font-size: 140px;
-}
-
-.team-member-img,.team-member-contact{
-	max-width: 350px;
 }
 
 .address-wrapper,
