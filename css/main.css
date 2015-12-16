@@ -212,23 +212,22 @@ p {
   font-family: "Roboto Mono";
   font-size: 12px;
 }
-
-/* line 7, ../scss/layout/_footer.scss */
-.footer-wrapper {
-  border-top: 1px solid #222;
-  padding: 60px 0;
+/* line 6, ../scss/layout/_footer.scss */
+.footer h4 {
+  font-family: "Roboto Mono";
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 15px;
 }
-
-/* line 12, ../scss/layout/_footer.scss */
+/* line 13, ../scss/layout/_footer.scss */
 .footer ul {
   margin-bottom: 40px;
 }
 
-/* line 16, ../scss/layout/_footer.scss */
-.footer h4 {
-  font-size: 14px;
-  font-weight: 700;
-  margin-bottom: 15px;
+/* line 19, ../scss/layout/_footer.scss */
+.footer-wrapper {
+  border-top: 1px solid #222;
+  padding: 60px 0;
 }
 
 /* line 1, ../scss/modules/_blocks.scss */
@@ -243,7 +242,7 @@ p {
 
 /* line 10, ../scss/modules/_blocks.scss */
 .service-number {
-  font-family: 'Source Serif Pro';
+  font-family: "Abril Fatface";
   font-size: 100px;
   color: #090909;
   margin-top: -30px;
