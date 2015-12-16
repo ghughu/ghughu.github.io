@@ -169,7 +169,7 @@ p {
   letter-spacing: 2px;
   font-size: 14px;
   font-weight: 800;
-  transition: all 1s;
+  transition: all 0.3s;
 }
 
 /* line 33, ../scss/layout/_nav.scss */
@@ -624,6 +624,11 @@ p {
 }
 
 /* line 1, ../scss/modules/_forms.scss */
+form {
+  transition: all 0.3s;
+}
+
+/* line 4, ../scss/modules/_forms.scss */
 .form-wrapper {
   font-family: "Roboto Mono";
   background-color: #fff;
@@ -631,20 +636,20 @@ p {
   padding: 20px;
 }
 
-/* line 8, ../scss/modules/_forms.scss */
+/* line 11, ../scss/modules/_forms.scss */
 label, input, textarea {
   display: block;
   width: 100%;
   outline: none;
 }
 
-/* line 14, ../scss/modules/_forms.scss */
+/* line 17, ../scss/modules/_forms.scss */
 label {
   font-weight: 700;
   margin-bottom: 7px;
 }
 
-/* line 19, ../scss/modules/_forms.scss */
+/* line 22, ../scss/modules/_forms.scss */
 input, textarea {
   background-color: #f7f7f7;
   border: 1px solid #ddd;
@@ -652,26 +657,26 @@ input, textarea {
   margin-bottom: 20px;
 }
 
-/* line 25, ../scss/modules/_forms.scss */
+/* line 28, ../scss/modules/_forms.scss */
 label, input, textarea {
   display: block;
   width: 100%;
   outline: none;
 }
 
-/* line 31, ../scss/modules/_forms.scss */
+/* line 34, ../scss/modules/_forms.scss */
 textarea {
   height: 130px;
   margin-bottom: 20px;
 }
 
-/* line 36, ../scss/modules/_forms.scss */
+/* line 39, ../scss/modules/_forms.scss */
 input.custom-button {
   border: none;
   font-family: "Roboto Mono";
 }
 
-/* line 41, ../scss/modules/_forms.scss */
+/* line 44, ../scss/modules/_forms.scss */
 label.local-error {
   background-color: #FCF8E3;
   color: #C74581;
@@ -681,7 +686,6 @@ label.local-error {
   margin-bottom: 20px;
   padding: 3px 20px;
   border-radius: 2px;
-  transition: all 0.3s;
 }
 
 /* line 1, ../scss/modules/_tables.scss */

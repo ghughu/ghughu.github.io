@@ -1,3 +1,6 @@
+form{
+    transition: all 0.3s;
+}
 .form-wrapper {
     font-family: $tertiary-font-family;
     background-color: #fff;
@@ -47,5 +50,4 @@ label.local-error{
     margin-bottom: 20px;
     padding: 3px 20px;
     border-radius: 2px;
-    transition: all 0.3s;
 }
