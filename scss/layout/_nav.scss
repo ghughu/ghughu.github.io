@@ -6,11 +6,15 @@
 		border:none;
 
         .navbar-brand{
-            font-family: $secondary-font-family;
+            font-family: $display-font-family;
             font-weight: 800;
             color: #fff;
             font-size: 48px;
             padding: 40px;
+
+            span.thin{
+                font-family: $secondary-font-family;
+            }
         }
 
         .navbar-toggle {

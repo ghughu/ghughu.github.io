@@ -146,26 +146,30 @@ p {
 }
 /* line 8, ../scss/layout/_nav.scss */
 .navbar-default .navbar-brand {
-  font-family: "Open sans", "Sans Serif";
+  font-family: "Abril Fatface";
   font-weight: 800;
   color: #fff;
   font-size: 48px;
   padding: 40px;
 }
-/* line 16, ../scss/layout/_nav.scss */
+/* line 15, ../scss/layout/_nav.scss */
+.navbar-default .navbar-brand span.thin {
+  font-family: "Open sans", "Sans Serif";
+}
+/* line 20, ../scss/layout/_nav.scss */
 .navbar-default .navbar-toggle {
   border: none;
   background-color: #f2013f;
 }
-/* line 20, ../scss/layout/_nav.scss */
+/* line 24, ../scss/layout/_nav.scss */
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
   background-color: #d90138;
 }
-/* line 24, ../scss/layout/_nav.scss */
+/* line 28, ../scss/layout/_nav.scss */
 .navbar-default .navbar-toggle .icon-bar {
   background-color: white;
 }
-/* line 29, ../scss/layout/_nav.scss */
+/* line 33, ../scss/layout/_nav.scss */
 .navbar-default .navbar-nav > li > a {
   color: white;
   text-transform: uppercase;
@@ -176,26 +180,26 @@ p {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-/* line 39, ../scss/layout/_nav.scss */
+/* line 43, ../scss/layout/_nav.scss */
 .navbar-default .navbar-nav > li > a:hover {
   background-color: transparent;
   color: #f2013f;
 }
-/* line 44, ../scss/layout/_nav.scss */
+/* line 48, ../scss/layout/_nav.scss */
 .navbar-default .navbar-nav > li > a:focus {
   color: #fff;
 }
-/* line 49, ../scss/layout/_nav.scss */
+/* line 53, ../scss/layout/_nav.scss */
 .navbar-default .navbar-nav > li.active > a {
   background-color: #090909;
   color: #f2013f;
 }
-/* line 53, ../scss/layout/_nav.scss */
+/* line 57, ../scss/layout/_nav.scss */
 .navbar-default .navbar-nav > li.active > a:hover {
   background-color: transparent;
   color: #f2013f;
 }
-/* line 59, ../scss/layout/_nav.scss */
+/* line 63, ../scss/layout/_nav.scss */
 .navbar-default .navbar-collapse {
   background-color: #090909;
   border: none;
