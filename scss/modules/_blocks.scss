@@ -1,6 +1,10 @@
 .service {
     padding: 35px 0 40px;
     border-top: 1px solid #d00136;
+
+    h2{
+    margin-bottom: 15px;
+    }
 }
 
 .service-number {
@@ -13,38 +17,46 @@
     line-height: 1.5;
 }
 
-.service h2{
-	margin-bottom: 15px;
-}
 
 
 /*section snippets*/
 
 .section-snippet{
     margin-bottom: 20px;
-}
 
-.section-snippet span {
+    span {
     font-family:$secondary-font-family;
     font-weight: 400;
     display: block;
     color: $primary-background-color;
     margin-left: 5px;
+
+    &.snippet-heading {
+        text-transform: uppercase;
+        font-weight: 800;
+        color: #bbb;
+        letter-spacing: 1px;
+    }
+
+    &:last-child {
+        margin-bottom: 40px;
+    }
+
+    }
 }
 
-.section-snippet span.snippet-heading {
-    text-transform: uppercase;
-    font-weight: 800;
-    color: #bbb;
-    letter-spacing: 1px;
-}
-
-.section-snippet:last-child {
-    margin-bottom: 40px;
-}
 
 
 /* team member */
+
+.team-member {
+    padding: 40px 0;
+
+    &::first-of-type {
+    padding-top: 0;
+    border: none;
+    }
+}
 
 .team-member-img {
     width: 100%;
@@ -65,25 +77,17 @@
 
 .team-member-desc-heading {
     margin-bottom: 20px;
-}
 
-.team-member-desc-heading h4{
+    h4{
     margin-bottom: 10px;
-}
+    }
 
-.team-member-desc-heading span {
+    span {
     font-size: 18px;
     color: #F2013F;
+    }
 }
 
-.team-member {
-    padding: 40px 0;
-}
-
-.team-member:first-of-type {
-    padding-top: 0;
-    border: none;
-}
 
 /*map*/
 #map {

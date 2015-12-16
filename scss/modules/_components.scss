@@ -34,44 +34,53 @@
 .banner-item{
 	position: absolute;
 	top:20%;
+
+	img{
+	    box-shadow: 0px 0px 45px rgba(0,0,0,0.2),0px 0px 45px rgba(0,0,0,0.2);
+	}
 }
 
-.banner-item img{
-	    box-shadow: 0px 0px 45px rgba(0,0,0,0.2),0px 0px 45px rgba(0,0,0,0.2);
-}
 
 .carousel-control {
-position: absolute;
-top: 100%;
-margin-top: -50px;
-bottom: 0;
-left: 0;
-width: 70px;
-height: 50px;
-font-size: 20px;
-color: #fff;
-text-align: center;
-text-shadow: 0 1px 2px rgba(0,0,0,.6);
-background-color: rgba(0,0,0,0);
-filter: alpha(opacity=100);
-opacity: 1;
-}
+	position: absolute;
+	top: 100%;
+	margin-top: -50px;
+	bottom: 0;
+	left: 0;
+	width: 70px;
+	height: 50px;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(0,0,0,.6);
+	background-color: rgba(0,0,0,0);
+	filter: alpha(opacity=100);
+	opacity: 1;
 
-.carousel-control.right{
-	margin-right: 15px; /*to neget the col padding to align with container*/
-	background-color: #090909;
-}
-.carousel-control.left{
-	left: 100%;
-	margin-left: -286px;	/* 120+15 to neget the col padding to align with container*/
-	background-color: #090909;
-}
+	&.right{
+		margin-right: 15px; /*to neget the col padding to align with container*/
+		background-color: #090909;
 
-.carousel-control a{
-	line-height: 0;
-}
-.carousel-control.left i img,.carousel-control.right i img{
-	margin-top: 12px;
+		i img{
+			margin-top: 12px;
+		}
+	}
+
+	&.left{
+		left: 100%;
+		margin-left: -286px;
+		background-color: #090909;
+
+		i img{
+			margin-top: 12px;
+		}
+	}
+
+	a{
+		line-height: 0;
+	}
+
+
 }
 
 .carousel-indicators{
@@ -86,20 +95,24 @@ opacity: 1;
 	padding-top: 14px;
 	border-left: 1px solid #1a1a1a;
 	border-right: 1px solid #1a1a1a;
+
+	li {
+		background-color:#fff;
+		border: none;
+		border-radius: 10px;
+	}
+
+	 .active {
+	    width: 12px;
+	    height: 12px;
+	    margin: 0;
+	    background-color: #F2013F;
+	}
 }
 
-.carousel-indicators li {
-background-color:#fff;
-border: none;
-border-radius: 10px;
-}
 
-.carousel-indicators .active {
-    width: 12px;
-    height: 12px;
-    margin: 0;
-    background-color: #F2013F;
-}
+
+
 
 /* =================  CAROUSEL CUSTOM FADE EFFECT ===================== */
 

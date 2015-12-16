@@ -17,28 +17,17 @@ h2 {
     padding: 80px 0;
 }
 
-.top-navigation-bar.navbar-default{
+.navbar-default{
 background-color: transparent;
 }
 
 
-.navbar-default .navbar-collapse{
-background-color: $secondary-background-color;
-border:none;
-padding-right: 40px;
-}
-
-.navbar-nav>li>a {
-padding-top: 20px;
-padding-bottom: 20px;
-}
-
 .banner-item{
-top:35%;
-}
+    top:35%;
 
-.banner .item img {
+    img {
     margin-top: -10px;
+    }
 }
 
 .about-us p {
@@ -53,7 +42,11 @@ top:35%;
 	max-width: 350px;
 }
 
-.address-wrapper,.email-wrapper,.form-wrapper,.map-wrapper,.footer-wrapper{
+.address-wrapper,
+.email-wrapper,
+.form-wrapper,
+.map-wrapper,
+.footer-wrapper{
     max-width: 100%;
     margin: 0;
 }
@@ -71,5 +64,4 @@ top:35%;
 }
 
 
-	
 }

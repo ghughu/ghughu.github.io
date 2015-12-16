@@ -10,25 +10,29 @@
 
 .banner{
 	background-color: $primary-background-color;
+
+    .container{
+        position: relative;
+    }
+
+    h1{
+        margin-bottom: 20px;
+    }
+
+    p{
+        max-width: 470px;
+    }
 }
-.banner .container{
-	position: relative;
-}
-.banner h1{
-	margin-bottom: 20px;
-}
-.banner p{
-	max-width: 470px;
-}
+
 
 /*who are we section*/
 
 .who-are-we{
 	background-color: $secondary-background-color;
-}
 
-.who-are-we h1{
-margin-bottom:40px;	
+    h1{
+        margin-bottom:40px; 
+    }
 }
 
 .services{
@@ -66,11 +70,12 @@ margin-bottom:40px;
 
 .about-us{
 	background-color: $secondary-background-color;
+
+    h1{
+        margin-bottom:40px; 
+    }
 }
 
-.about-us h1{
-margin-bottom:40px;	
-}
 
 /* team members */
 
@@ -83,33 +88,38 @@ margin-bottom:40px;
 
 .address {
     background-color: $primary-background-color;
-}
 
-.address h1 {
-    margin-bottom: 30px;
+    h1 {
+        margin-bottom: 30px;
+    }
 }
 
 .address-table {
     color: #fff;
     border-top: 1px solid #d00136;
     margin-bottom: 60px;
-}
 
-.address-table td {
-    border-bottom: 1px solid #d00136;
+    td {
+        border-bottom: 1px solid #d00136;
+    }
 }
 
 /*email us*/
 
-.address-wrapper,.email-wrapper,.form-wrapper,.map-wrapper,.footer-wrapper{
+.address-wrapper,
+.email-wrapper,
+.form-wrapper,
+.map-wrapper,
+.footer-wrapper{
     max-width: 500px;
     margin: 0 auto;
 }
 
 .email-us{
     background-color:$secondary-background-color;
+
+    h1 {
+        margin-bottom: 30px;
+    }
 }
 
-.email-us h1 {
-    margin-bottom: 30px;
-}
