@@ -5,6 +5,14 @@
 		background-color: $secondary-background-color;
 		border:none;
 
+        .navbar-brand{
+            font-family: $secondary-font-family;
+            font-weight: 800;
+            color: #fff;
+            font-size: 48px;
+            padding: 40px;
+        }
+
         .navbar-toggle {
             border:none;
             background-color: $primary-background-color;
