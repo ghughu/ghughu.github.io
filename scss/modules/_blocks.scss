@@ -1,0 +1,93 @@
+.service {
+    padding: 35px 0 40px;
+    border-top: 1px solid #d00136;
+}
+
+.service-number {
+    font-family: 'Source Serif Pro';
+    font-size: 100px;
+    color: $secondary-font-color;
+    margin-top: -30px;
+    display: inline-block;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.service h2{
+	margin-bottom: 15px;
+}
+
+
+/*section snippets*/
+
+.section-snippet{
+    margin-bottom: 20px;
+}
+
+.section-snippet span {
+    font-family:$secondary-font-family;
+    font-weight: 400;
+    display: block;
+    color: $primary-background-color;
+    margin-left: 5px;
+}
+
+.section-snippet span.snippet-heading {
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #bbb;
+    letter-spacing: 1px;
+}
+
+.section-snippet:last-child {
+    margin-bottom: 40px;
+}
+
+
+/* team member */
+
+.team-member-img {
+    width: 100%;
+    height: 230px;
+    background-image: url('../images/about-us/5.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+    border-top: 5px solid #090909;
+}
+
+
+.team-member-contact {
+    margin-bottom: 40px;
+}
+
+
+.team-member-desc-heading {
+    margin-bottom: 20px;
+}
+
+.team-member-desc-heading h4{
+    margin-bottom: 10px;
+}
+
+.team-member-desc-heading span {
+    font-size: 18px;
+    color: #F2013F;
+}
+
+.team-member {
+    padding: 40px 0;
+}
+
+.team-member:first-of-type {
+    padding-top: 0;
+    border: none;
+}
+
+/*map*/
+#map {
+    height: 350px;
+    color: #090909;
+    box-shadow: 0px 0px 45px rgba(0,0,0,0.1),0px 0px 45px rgba(0,0,0,0.2);
+}
