@@ -153,23 +153,27 @@ p {
   padding: 15px 0;
 }
 /* line 15, ../scss/layout/_nav.scss */
+.navbar-default .navbar-brand:hover {
+  color: #f2013f;
+}
+/* line 19, ../scss/layout/_nav.scss */
 .navbar-default .navbar-brand span.thin {
   font-family: "Open sans", "Sans Serif";
 }
-/* line 20, ../scss/layout/_nav.scss */
+/* line 24, ../scss/layout/_nav.scss */
 .navbar-default .navbar-toggle {
   border: none;
   background-color: #f2013f;
 }
-/* line 24, ../scss/layout/_nav.scss */
+/* line 28, ../scss/layout/_nav.scss */
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
   background-color: #d90138;
 }
-/* line 28, ../scss/layout/_nav.scss */
+/* line 32, ../scss/layout/_nav.scss */
 .navbar-default .navbar-toggle .icon-bar {
   background-color: white;
 }
-/* line 33, ../scss/layout/_nav.scss */
+/* line 37, ../scss/layout/_nav.scss */
 .navbar-default .navbar-nav > li > a {
   color: white;
   text-transform: uppercase;
@@ -180,26 +184,26 @@ p {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-/* line 43, ../scss/layout/_nav.scss */
+/* line 47, ../scss/layout/_nav.scss */
 .navbar-default .navbar-nav > li > a:hover {
   background-color: transparent;
   color: #f2013f;
 }
-/* line 48, ../scss/layout/_nav.scss */
+/* line 52, ../scss/layout/_nav.scss */
 .navbar-default .navbar-nav > li > a:focus {
   color: #fff;
 }
-/* line 53, ../scss/layout/_nav.scss */
+/* line 57, ../scss/layout/_nav.scss */
 .navbar-default .navbar-nav > li.active > a {
   background-color: #090909;
   color: #f2013f;
 }
-/* line 57, ../scss/layout/_nav.scss */
+/* line 61, ../scss/layout/_nav.scss */
 .navbar-default .navbar-nav > li.active > a:hover {
   background-color: transparent;
   color: #f2013f;
 }
-/* line 63, ../scss/layout/_nav.scss */
+/* line 67, ../scss/layout/_nav.scss */
 .navbar-default .navbar-collapse {
   background-color: #090909;
   border: none;
