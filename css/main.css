@@ -186,13 +186,18 @@ p {
 }
 
 /* line 44, ../scss/layout/_nav.scss */
+.navbar-default .navbar-nav > li > a:focus {
+  color: #fff;
+}
+
+/* line 48, ../scss/layout/_nav.scss */
 .navbar-default .navbar-collapse {
   background-color: #090909;
   border: none;
   padding-right: 40px;
 }
 
-/* line 50, ../scss/layout/_nav.scss */
+/* line 54, ../scss/layout/_nav.scss */
 .navbar-nav > li > a {
   padding-top: 20px;
   padding-bottom: 20px;

@@ -41,6 +41,10 @@
 	color:$hover-font-color;
 }
 
+.navbar-default .navbar-nav>li>a:focus{
+    color:#fff;
+}
+
 .navbar-default .navbar-collapse{
 	background-color: $secondary-background-color;
 	border:none;
